@@ -1,0 +1,6 @@
+sudo sh -c 'echo 23 > /sys/class/gpio/export'
+sudo sh -c 'echo out > /sys/class/gpio/gpio23/direction'  # TRIG
+sudo sh -c 'echo 24 > /sys/class/gpio/export'
+sudo sh -c 'echo in > /sys/class/gpio/gpio24/direction'   # ECHO
+sudo sh -c 'echo 17 > /sys/class/gpio/export'
+sudo sh -c 'echo in > /sys/class/gpio/gpio17/direction'   # IR
