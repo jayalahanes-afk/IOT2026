@@ -1,0 +1,8 @@
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+which python3
+which sudo
+sudo apt update
+sudo apt install -y pigpio python3-pigpio
+sudo pigpiod
+sudo pigpiod           # if not already running
+python3 distance.py
